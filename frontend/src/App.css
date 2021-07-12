@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+}
+.App {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Header */
+.header input {
+  margin-bottom: 3rem;
+  width: 40vw;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+}
+.header button {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  background-color: tomato;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.header button:hover {
+  background-color: lightcoral;
+}
+
+
+/* Todo */
+.todo {
+  margin: 0.2rem 0rem;
+  display: flex;
+  background-color: white;
+  width: 500px;
+  height: 50px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-around;
+}
+.todo span {
+  cursor: pointer;
+  margin: 0rem 1rem;
+}
+.todo p {
+  width: 70%;
+  overflow: hidden;
+}
